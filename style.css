@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #9d9d9dbe;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.container{
+    position: relative;
+    background-color: rgba(232, 232, 232, 0.596);
+    width: 300px;
+    height: 350px;
+    border: 2px solid #0000000c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    padding: 10px;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+ 
+.round{
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.wrap-input-label{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    width: 80%;
+    position: relative;
+}
+
+.eye{
+    position: absolute;
+    right:10px;
+    bottom: 7px;
+    opacity: 0.7;
+}
+
+.eye:hover {
+   cursor: pointer;
+   opacity: 1;
+}
+
+.wrap-input-label label{
+   color: #1c1408;
+   font-size: 20px;
+   margin-bottom: 5px; 
+}
+
+
+.wrap-input-label input{
+    background-color: transparent;
+    padding: 8px 0px;
+    border: none;
+    width: 100%;
+    border-bottom:2px solid #efe4d5b6;
+    font-size: 10px;
+     color: #1c1408;
+}
+
+input::placeholder{
+    color: #001524;
+    font-size: 16px;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    color: #474747e1;
+    font-size: 16px;
+    border-bottom:2px solid #464646;
+}
+
+.btn-login{
+    padding: 10px;
+    width: 80%;
+    background-color: #313131;
+    border-radius: 999px;
+    border: none;
+    border:2px solid #7e7e7e;
+    font-size: 20px;
+    font-weight: bold;
+    color:#7d7d7d;
+    transition: all 200ms ease-in-out;
+    margin-top: 10px;
+}
+
+.btn-login:hover{
+    cursor: pointer;
+    color: #f7edded8;
+    border: 2px solid #ffecd1cb;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+    
+    
+    .error-div{
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    height: auto;
+    background-color: lightpink;
+    gap: 2vh;
+    padding: 10px;
+    position: absolute;
+    bottom: 5%;
+    font-size: 14px;
+    font-weight: lighter;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.error-div button{
+    background-color: transparent;
+    border: none;
+    opacity: 0.7;
+    transition: all 200ms linear;
+}
+
+.error-div button:hover{
+    cursor: pointer;
+    opacity: 1;
+}
