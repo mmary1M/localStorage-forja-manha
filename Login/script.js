@@ -3,7 +3,7 @@ function login(){
     var nome = $("#nome").val()
      var senha = $("#senha").val()
 
-     if(nome && nome == "apple" && senha === "apple é de pobre"){
+     if(nome && nome == "lais" && senha === "lais é de pobre"){
         const user = {
             name : nome,
             dataEntrada: new Date(),

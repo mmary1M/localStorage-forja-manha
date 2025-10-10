@@ -1,0 +1,77 @@
+[
+{
+        "id": 1,
+        "desc": "Apple iPhone 13 256GB Azul",
+        "images":"../Dados/Imagens/aphone-13.avif",
+        "preco":3.799
+        
+},
+{
+        "id": 2,
+        "desc": "Apple iPhone 14 Plus 256GB Roxo",
+        "images":"../Dados/Imagens/ap.avif",
+        "preco":4.499
+        
+},
+{
+        "id": 3,
+        "desc": "Apple iPhone 16 Pro Max 256GB Titânio Deserto",
+        "images":"../Dados/Imagens/aphone-pro.avif",
+        "preco":10.799
+        
+},
+{
+        "id": 4,
+        "desc": "Apple iPhone 15 128GB Azul",
+        "images":"../Dados/Imagens/aphone15.avif",
+        "preco":3.999
+        
+},
+{
+        "id": 5,
+        "desc": "Apple iPhone 17 256GB Azul-névoa",
+        "images":"../Dados/Imagens/aphone2.avif",
+        "preco":7.199
+
+
+        
+},
+{
+        "id": 6,
+        "desc": "Apple iPhone 16e 128GB Branco",
+        "images":"../Dados/Imagens/aph16p.avif",
+        "preco": 3.749
+        
+},
+{
+        "id": 7,
+        "desc": "Apple iPhone 16 512GB Verde-Acinzentadoo",
+        "images":"../Dados/Imagens/aphone7.avif",
+        "preco":7.599
+        
+},
+{
+        "id": 8,
+        "desc": "Apple iPhone 17 Pro 256GB Azul-intenso",
+        "images":"../Dados/Imagens/api4.avif",
+        "preco":10.349
+        
+},
+{
+        "id": 9,
+        "desc": "Apple iPhone Air 256GB Branco-nuvem",
+        "images":"../Dados/Imagens/aple9.avif",
+        "preco":9.449
+        
+},
+{
+        "id": 10,
+        "desc": "Apple iPhone 17 Pro Max 256GB Laranja-cósmico",
+        "images":"../Dados/Imagens/aple11.avif",
+        "preco":11.249
+        
+}
+   
+      
+        
+]
